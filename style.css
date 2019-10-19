@@ -295,7 +295,7 @@ button{
 -------------------------------------------------------------- */
 
 h1,h2,h3,h4,h5,h6,p,label,.btn,a{
-	font-family:"Helvetica";
+	font-family:"Pacifico";
 }
 .container{
 	max-width:1140px;
@@ -324,6 +324,7 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 .h1-style{
 	font-size:18px;
 	width:100%;
+	font-family:Arvo;
 }
 .h2-8-style{
 	width:100%;
@@ -334,6 +335,19 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 }
 .h2- limpeza-style{
 	text-indent:px;
+	font-family:"Droid Sans";
+}
+.p-style{
+	font-family:Arvo;
+	font-size:20px;
+}
+.p-bloc-2-style{
+	font-family:"Droid Sans";
+	font-size:20px;
+}
+.p-bloc-3-style{
+	font-size:20px;
+	font-family:"Droid Sans";
 }
 
 /* = Colour
@@ -359,6 +373,9 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 .tc-turquoise{
 	color:#31D1BA!important;
 }
+.tc-white{
+	color:#FFFFFF!important;
+}
 .tc-turquoise-2{
 	color:#31D1BA!important;
 }
@@ -375,6 +392,15 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 .btn-turquoise:hover{
 	background:#27a795!important;
 	color:#FFFFFF!important;
+}
+
+/* Link colour styles */
+
+.ltc-white{
+	color:#FFFFFF!important;
+}
+.ltc-white:hover{
+	color:#cccccc!important;
 }
 
 /* Bloc image backgrounds */
