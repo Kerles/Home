@@ -85,19 +85,6 @@ a:hover{text-decoration: none; cursor:pointer;}
 }
 
 
-/* Background Effects */
-
-.b-parallax{
-	background-attachment:fixed;
-}
-
-/* Disable Parallax on Mobile Touch Devices */
-@media (hover: none) {
-	.b-parallax{
-	background-attachment:scroll;
-}
-}
-
 /* Dark theme */
 
 .d-bloc{
@@ -366,6 +353,12 @@ button{
 .blocsapp-device-mbp{
 	background-image:url("img/Apple-Macbook-Pro.png");
 }
+/* = MacBook Space Grey
+-------------------------------------------------------------- */
+
+.mb-space-grey{
+	background-image:url("img/Apple-Macbook-Space-Grey.png");
+}
 
 /* = Custom Styling
 -------------------------------------------------------------- */
@@ -510,18 +503,6 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 .bg-wp1824192{
 	background-image:url("img/wp1824192-1.jpg");
 }
-.bg-Cópia-20de-20Protecao-20de-20Dados{
-	background-image:url("img/Cópia%20de%20Protecao%20de%20Dados.png");
-}
-.bg-Cópia-20de-20Cópia-20de-20Protecao-20de-20Dados{
-	background-image:url("img/Cópia%20de%20Cópia%20de%20Protecao%20de%20Dados.png");
-}
-.bg-Cópia-20de-20Cópia-20de-20Cópia-20de-20Protecao-20de-20Dados-2{
-	background-image:url("img/Cópia%20de%20Cópia%20de%20Cópia%20de%20Protecao%20de%20Dados-2.png");
-}
-.bg-Cópia-20de-20Cópia-20de-20Cópia-20de-20Protecao-20de-20Dados{
-	background-image:url("img/Cópia%20de%20Cópia%20de%20Cópia%20de%20Protecao%20de%20Dados.png");
-}
 .bg-wp1824192{
 	background-image:url("img/wp1824192.jpg");
 }
@@ -595,12 +576,6 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 		width:100%;
 	}
 	
-	/* MD Text Margin Offsets */
-	.mg-md-md{
-		margin-top:10px;
-		margin-bottom:20px;
-	}
-	
 }
 
 @media (max-width: 767px){
@@ -622,6 +597,9 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 	}
 	.h2-otimização-style{
 		font-family:"Droid Sans";
+	}
+	.h2- limpeza-style{
+		font-family:"Oleo Script";
 	}
 	
 }
