@@ -45,6 +45,26 @@ a:hover{text-decoration: none; cursor:pointer;}
 	padding:20px 50px;
 }
 
+/* = Full Width Blocs 
+-------------------------------------------------------------- */
+
+.full-width-bloc{
+	padding-left:0;
+	padding-right:0;
+}
+.full-width-bloc .row{
+	margin-left:0;
+	margin-right:0;
+}
+.full-width-bloc .container{
+	width:100%;
+	max-width:100%!important;
+}
+.full-width-bloc .carousel img{
+	width:100%;
+	height:auto;
+}
+
 
 /* Background Styles */
 
@@ -157,6 +177,12 @@ a:hover{text-decoration: none; cursor:pointer;}
 	border-color:rgba(0,0,0,.3);
 }
 
+/* Row Margin Offsets */
+
+.voffset{
+	margin-top:30px;
+}
+
 
 /* = NavBar
 -------------------------------------------------------------- */
@@ -183,6 +209,10 @@ a:hover{text-decoration: none; cursor:pointer;}
 /* = Bric adjustment margins
 -------------------------------------------------------------- */
 
+.mg-sm{
+	margin-top:10px;
+	margin-bottom:5px;
+}
 .mg-md{
 	margin-top:10px;
 	margin-bottom:20px;
@@ -201,6 +231,12 @@ button{
 	outline: none!important;
 }
 
+.btn-clean{
+	border:1px solid rgba(0,0,0,.08);
+	border-bottom-color:rgba(0,0,0,.1);
+	text-shadow:0 1px 0 rgba(0,0,1,.1);
+	box-shadow: 0 1px 3px rgba(0,0,1,.25), inset 0 1px 0 0 rgba(255,255,255,.15);
+}
 .icon-spacer{
 	margin-right:5px;
 }
@@ -211,9 +247,31 @@ button{
 	font-size:100px!important;
 }
 
+/* Image Frame */
+.img-frame,.img-frame-md,.img-frame-lg,.img-frame-rd,.img-frame-rd-md,.img-frame-rd-lg{
+	background:#FFF;
+	border:1px solid rgba(0,0,0,0.1);
+	box-shadow:0 2px 2px rgba(0,0,0,0.05);
+	padding:4px;
+}
+.img-frame{
+	border-radius:3px;
+}
+.img-frame-md,.img-frame-lg{
+	border-radius:6px;
+}
+.img-frame-md,.img-frame-rd-md{
+	padding:8px;
+}
+.img-frame-lg,.img-frame-rd-lg{
+	padding:14px;
+}
 
 /* = Text & Icon Styles
 -------------------------------------------------------------- */
+.sm-shadow{
+	text-shadow:0 1px 2px rgba(0,0,0,.3);
+}
 .threeD-t{
 	text-shadow:0 1px 0 #ccc,0 2px 0 #c9c9c9,0 3px 0 #bbb,0 4px 0 #b9b9b9, 0 5px 0 #aaa, 0 6px 1px rgba(0,0,0,.1), 0 0 5px rgba(0,0,0,.1), 0 1px 3px rgba(0,0,0,.3), 0 3px 5px rgba(0,0,0,.2), 0 5px 10px rgba(0,0,0,.25),0 20px 20px rgba(0,0,0,.15);
 }
@@ -232,6 +290,24 @@ button{
 	border-radius:0 0 29px 29px;
 }
 
+/* = Dividers
+-------------------------------------------------------------- */
+.divider-h{
+	padding:20px 0;
+	width:100%;
+	display:inline-block;
+}
+.divider-h span{
+	display: block;
+	border-top:1px solid transparent;
+}
+.divider-half{
+	width: 50%;
+	margin: 0 auto;
+}
+.dropdown-menu .divider-h,.dropdown-menu .divider-half{
+	padding:0;
+}
 
 /* = Forms
 -------------------------------------------------------------- */
@@ -314,8 +390,8 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 	font-family:"Oleo Script";
 }
 .img-style{
-	width:500px;
-	height:500px;
+	width:700px;
+	height:400px;
 }
 .h2-segurança-style{
 	font-size:31px;
@@ -324,7 +400,7 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 .h1-style{
 	font-size:18px;
 	width:100%;
-	font-family:Arvo;
+	font-family:Domine;
 }
 .h2-8-style{
 	width:100%;
@@ -338,7 +414,7 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 	font-family:"Droid Sans";
 }
 .p-style{
-	font-family:Arvo;
+	font-family:"Droid Sans";
 	font-size:20px;
 }
 .p-bloc-2-style{
@@ -349,6 +425,28 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 	font-size:20px;
 	font-family:"Droid Sans";
 }
+.label-style{
+	font-family:Domine;
+	font-size:20px;
+}
+.label-email-style{
+	font-size:20px;
+	font-family:Domine;
+}
+.label-mensagem-style{
+	font-family:Domine;
+	font-size:20px;
+}
+.p-9-style{
+	font-family:"Oleo Script";
+	font-size:20px;
+}
+.h4-style{
+	font-family:"Oleo Script";
+}
+.h4-lipemza-style{
+	font-family:"Oleo Script";
+}
 
 /* = Colour
 -------------------------------------------------------------- */
@@ -358,29 +456,26 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 .bgc-black{
 	background-color:rgba(0,0,0,0.701961);
 }
-.bgc-medium-jungle-green{
-	background-color:#303437;
-}
 .bgc-turquoise{
+	background-color:#31D1BA;
+}
+.bgc-turquoise-2{
 	background-color:#31D1BA;
 }
 
 /* Text colour styles */
 
-.tc-black{
-	color:rgba(0,0,0,0.701961)!important;
+.tc-white{
+	color:#FFFFFF!important;
 }
 .tc-turquoise{
 	color:#31D1BA!important;
 }
-.tc-white{
-	color:#FFFFFF!important;
-}
 .tc-turquoise-2{
 	color:#31D1BA!important;
 }
-.tc-medium-jungle-green{
-	color:#303437!important;
+.tc-black{
+	color:rgba(0,0,0,0.701961)!important;
 }
 
 /* Button colour styles */
@@ -401,6 +496,13 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 }
 .ltc-white:hover{
 	color:#cccccc!important;
+}
+
+/* Icon colour styles */
+
+.icon-white{
+	color:#FFFFFF!important;
+	border-color:#FFFFFF!important;
 }
 
 /* Bloc image backgrounds */
