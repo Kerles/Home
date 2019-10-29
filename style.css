@@ -1,8 +1,8 @@
 /*-----------------------------------------------------------------------------------
 	    Kerles
-        Built with Blocs
+        Built with Love
 -----------------------------------------------------------------------------------*/
- 
+
 body{
 	margin:0;
 	padding:0;
@@ -15,7 +15,7 @@ body{
 a,button{transition: background .3s ease-in-out;outline: none!important;} /* Prevent ugly blue glow on chrome and safari */
 a:hover{text-decoration: none; cursor:pointer;}
 
-/* = Blocs
+/* = Blocks
 -------------------------------------------------------------- */
 
 .bloc{
@@ -45,7 +45,7 @@ a:hover{text-decoration: none; cursor:pointer;}
 	padding:20px 50px;
 }
 
-/* = Full Width Blocs 
+/* = Full Width Blocks
 -------------------------------------------------------------- */
 
 .full-width-bloc{
@@ -85,7 +85,7 @@ a:hover{text-decoration: none; cursor:pointer;}
 }
 
 
-/* Dark theme */
+/* Dark! theme */
 
 .d-bloc{
 	color:rgba(255,255,255,.7);
@@ -136,7 +136,7 @@ a:hover{text-decoration: none; cursor:pointer;}
 }
 
 
-/* Light theme */
+/* Light! theme */
 
 .d-bloc .card,.l-bloc{
 	color:rgba(0,0,0,.5);
@@ -254,7 +254,7 @@ button{
 	padding:14px;
 }
 
-/* = Text & Icon Styles
+/* = Texto & Icone Estilo normal & Estilo pasta americana 3D
 -------------------------------------------------------------- */
 .sm-shadow{
 	text-shadow:0 1px 2px rgba(0,0,0,.3);
@@ -306,7 +306,7 @@ button{
 
 
 
-/* ScrollToTop button */
+/* Pra cima button */
 
 .scrollToTop{
 	width:40px;
@@ -325,7 +325,7 @@ button{
 	font-size: 14px;
 	opacity: 1;
 }
-/* = MacBook Devices
+/* = MacBooks Devices
 -------------------------------------------------------------- */
 
 .blocsapp-device-mb{
@@ -347,7 +347,7 @@ button{
 	width: 103.1%;
 	left: -1.5%;
 }
-/* = MacBook Pro
+/* = MacBooks Pro
 -------------------------------------------------------------- */
 
 .blocsapp-device-mbp{
@@ -503,17 +503,17 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 
 
 
-/* = Mobile adjustments 
+/* = Mobile adjustments
 -------------------------------------------------------------- */
 @media (max-width: 1024px)
 {
     .bloc{
-        padding-left: 20px; 
-        padding-right: 20px;  
+        padding-left: 20px;
+        padding-right: 20px;
     }
     .bloc.full-width-bloc, .bloc-tile-2.full-width-bloc .container, .bloc-tile-3.full-width-bloc .container, .bloc-tile-4.full-width-bloc .container{
-        padding-left: 0; 
-        padding-right: 0;  
+        padding-left: 0;
+        padding-right: 0;
     }
 }
 @media (max-width: 991px)
@@ -536,7 +536,7 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
         padding:0 10px;
     }
     .btn-dwn{
-       display:none; 
+       display:none;
     }
     .voffset{
         margin-top:5px;
@@ -569,7 +569,7 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 	.h2-style{
 		width:100%;
 	}
-	
+
 }
 
 @media (max-width: 767px){
@@ -579,7 +579,7 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 	.h2- limpeza-style{
 		text-indent:0px;
 	}
-	
+
 }
 
 @media (max-width: 575px){
@@ -595,6 +595,5 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 	.h2- limpeza-style{
 		font-family:"Oleo Script";
 	}
-	
-}
 
+}
