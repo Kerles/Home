@@ -11,7 +11,7 @@
 	$to = 'kerles_94@hotmail.com'; // Email submissions are sent to this email
 
 	// Create email	
-	$email_subject = "Mensagem de um site de Blocs.";
+	$email_subject = "Mensagem de Micasa.";
 	$email_body = "Você recebeu uma nova mensagem. \n\n".
 				  "Name_46872: $name_46872 \nEmail_46872: $email_46872 \nMessage_46872: $message_46872 \n";
 	$headers = "MIME-Version: 1.0\r\nContent-type: text/plain; charset=UTF-8\r\n";	
